@@ -1,0 +1,74 @@
+
+body{
+  background-color: rgb(197, 186, 186);
+}
+.continer {
+  
+  max-width: 1300px;
+  margin: 20px auto;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.sort-label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+
+.flight-list, .cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.flight-item, .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f4;
+  margin-bottom: 8px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.flight-item:hover, .cart-item:hover {
+  background: #eaeaea;
+}
+
+.btn-add {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+
+
+
+
+.btn-delete:hover {
+  background: #bcc4d5;
+}
+
